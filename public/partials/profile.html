@@ -1,0 +1,15 @@
+﻿<form ng-controller="profileCtrl">
+    <div class="form-group">
+        <label>用户名</label>
+        <input type="text" class="form-control" placeholder="用户名" ng-model="user.name" />
+    </div>
+    <div class="form-group">
+        <label>邮箱</label>
+        <input type="email" class="form-control" placeholder="密码" ng-model="user.email" />
+    </div>
+    <div class="form-group">
+        <label>密码</label>
+        <input type="text" class="form-control" placeholder="密码" ng-model="user.password" />
+    </div>
+    <button  class="btn btn-default" ng-click="save();">保存</button>
+</form>
